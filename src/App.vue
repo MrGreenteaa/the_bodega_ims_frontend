@@ -2,7 +2,7 @@
 import { ref, onMounted } from 'vue'
 import { computed } from 'vue'
 
-const API_URL = 'http://eddev18.pythonanywhere.com/products'
+const API_URL = 'https://eddev18.pythonanywhere.com/products'
 
 const products = ref([])
 const error = ref('')
